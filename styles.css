@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 300px;
+}
+
+.grid-item {
+  background-color: transparent;
+  text-align: center;
+  font-size: 30px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.grid-item:hover {
+  background-color: lightgray;
+}
